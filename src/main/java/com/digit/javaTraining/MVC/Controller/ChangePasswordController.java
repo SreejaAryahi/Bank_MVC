@@ -1,6 +1,7 @@
 package com.digit.javaTraining.MVC.Controller;
 
 import java.io.IOException;
+import java.net.http.HttpRequest;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -19,7 +20,7 @@ import com.digit.javaTraining.MVC.Model.BankApp;
 
 public class ChangePasswordController extends HttpServlet{
 	@Override
-	public void service(HttpServletRequest req,HttpServletResponse resp)  throws ServletException, IOException{
+	public void service(HttpRequest req,HttpServletResponse resp)  throws ServletException, IOException{
 		BankApp bankapp=new BankApp();
 		HttpSession session=req.getSession();
 		int accno=(int)session.getAttribute("accno");
