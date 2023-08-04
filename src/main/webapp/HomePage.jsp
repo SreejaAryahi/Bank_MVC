@@ -20,7 +20,7 @@
 	<a href="ChangePassword.html"><br><br>2. Change Password</a>
 	<a href="Loan.jsp"><br><br>2. Apply Loan</a>
 	<a href="Transfer.html"><br><br>2. Transfer Amount</a>
-	<a href= "LogOut"><br><br>4. Logout</a>
+	<a href= "LogoutController"><br><br>4. Logout</a>
 	</div>
 	
 

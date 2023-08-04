@@ -36,7 +36,7 @@ public class transferStatusC extends HttpServlet {
 
 		if(x==true) {
 
-			resp.sendRedirect("TransferSucess.html");
+			resp.sendRedirect("TransferSuccess.html");
 
 
 		}

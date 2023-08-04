@@ -27,6 +27,7 @@ public class LoginController  extends HttpServlet{
 			if(result1 == true) {
 				session.setAttribute("customer_name",b.getCustomer_name() );
 				session.setAttribute("accno",b.getAccno() );
+				session.setAttribute("pin",b.getPin() );
 				resp.sendRedirect("HomePage.jsp");
 			}else {
 				resp.sendRedirect("LoginFail.html");
